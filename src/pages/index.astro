@@ -1,5 +1,4 @@
 ---
-import { UserButton } from "@clerk/astro/components";
 import Layout from "../layouts/Layout.astro";
 import Pronounce from "../react/Pronounce";
 const externalLinks = [
@@ -77,19 +76,6 @@ const externalLinks = [
           ))
         }
       </ul>
-
-      <div class="flex gap-4 items-center h-10">
-        <a href="/guestbook" class="text-sm text-zinc-700 dark:text-zinc-100">
-          Write in the Guestbook ✍️
-        </a>
-        <UserButton
-          appearance={{
-            elements: {
-              userButtonAvatarBox: "dark:border-zinc-800 border w-10 h-10",
-            },
-          }}
-        />
-      </div>
 
       <p class="text-sm text-zinc-700 dark:text-zinc-400">
         Built with Astro and Tailwind. Deployed at ▲ Vercel
