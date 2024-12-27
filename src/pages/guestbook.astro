@@ -86,6 +86,6 @@ entriesStore.set(entries);
   import { entriesStore } from "../atoms/enties";
 
   entriesStore.set(
-    JSON.parse(document.getElementById("ssr_data")!.textContent || "{}"),
+    JSON.parse(document.getElementById("ssr_data")!.textContent || "{}")
   );
 </script>
