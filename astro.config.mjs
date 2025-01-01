@@ -9,7 +9,7 @@ export default defineConfig({
     react(),
     tailwind()
   ],
-  site: "https://elef.codes"
+  site: "https://elef.codes",
   adapter: vercel({
     webAnalytics: {
       enabled: true,
