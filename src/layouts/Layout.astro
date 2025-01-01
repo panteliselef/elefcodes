@@ -7,7 +7,7 @@ export interface Props {
 
 const { title } = Astro.props;
 
-const previewUrl = new URL("/preview.jpg", Astro.request.url).href;
+const previewUrl = new URL("/preview.jpg", Astro.url).href;
 ---
 
 <!doctype html>
